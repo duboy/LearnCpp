@@ -1,7 +1,9 @@
 #include <iostream>
-#include "ex7_5.h"
+#include "ex7_9.h"
 int main ()
 {
-	Person s1 = {"s", "d"};
+	Person s1;
+	read(std::cin, s1);
+	print (std::cout, s1);
 	
 }
