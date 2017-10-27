@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ex7_22.h"
+#include "ex7_15.h"
 int main ()
 {
 	Person s1("s1", "ss");
