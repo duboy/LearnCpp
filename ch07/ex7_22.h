@@ -11,6 +11,7 @@ public:
 	std::string getName () const {return name;};
 	std::string getAddres () const {return address;};
 
+	Person () = default;
 	Person (const std::string &nam, const std::string &addr) : 
 			name (nam), address (addr) {}
 };
